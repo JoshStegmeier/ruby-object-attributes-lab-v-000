@@ -1,13 +1,13 @@
 class Person
-  def initialize(initial_name)
-    @name = initial_name
+  def initialize(initial_job)
+    @job = initial_job
   end
 
-  def name
-    @name
+  def job
+    @job
   end
 
-  def name=(new_name)
-    @name = new_name
+  def job=(new_job)
+    @job = new_job
   end
 end
